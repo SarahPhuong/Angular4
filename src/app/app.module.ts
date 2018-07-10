@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavigateComponent } from './navigate/navigate.component';
+import { ChangeTextDirective } from './change-text.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigateComponent
+    NavigateComponent,
+    ChangeTextDirective,
   ],
   imports: [
     BrowserModule
